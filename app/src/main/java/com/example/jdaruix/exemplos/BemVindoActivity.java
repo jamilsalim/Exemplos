@@ -14,5 +14,6 @@ public class BemVindoActivity extends DebugActivity {
         String nome = args.getString("nome");
         TextView textView = (TextView) findViewById(R.id.text);
         textView.setText(nome + ", seja bem-vindo");
+
     }
 }
